@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF3DA;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header-title {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+  .table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .table th {
+    font-weight: bold;
+  }
+
+.product-thumbnail img {
+  border-radius: 8px;
+}
+
+.product-remove .remove {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+
+.pro-qty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-btn {
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition:none;
+}
+
+  .quantity-btn:hover {
+    color: #ff6565
+  }
+
+.cart-totals-wrap {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  .cart-totals-wrap h2 {
+    margin-bottom: 15px;
+  }
+
+  .cart-totals-wrap table {
+    width: 100%;
+  }
+
+.coupon-wrap {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-coupon {
+  background: #ff6565;
+  border: 2px solid #ff6565;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 0;
+  line-height: 46px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 35px;
+  text-shadow: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  border-radius: 4px;
+  transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out
+}
+
+  .btn-coupon:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff
+  }
+
+
+  .btn-coupon[_ngcontent-ng-c187850835] {
+    padding: 4px 15px;
+  }
+
+
+.checkout-button[_ngcontent-ng-c187850835] {
+  padding: -1px 20px;
+}

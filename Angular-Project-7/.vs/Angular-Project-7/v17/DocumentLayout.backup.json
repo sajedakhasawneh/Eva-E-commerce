@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\category\\add-category\\add-category.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\category\\add-category\\add-category.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\category\\view-category\\view-category.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\category\\view-category\\view-category.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\category\\edit-category\\edit-category.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\category\\edit-category\\edit-category.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\product\\view-product\\view-product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\product\\view-product\\view-product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\voucher\\viewvoucher\\viewvoucher.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\voucher\\viewvoucher\\viewvoucher.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\voucher\\viewvoucher\\viewvoucher.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\voucher\\viewvoucher\\viewvoucher.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\product\\view-product\\view-product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\product\\view-product\\view-product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\product\\view-product\\view-product.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\product\\view-product\\view-product.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\product\\edit-product\\edit-product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\product\\edit-product\\edit-product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\product\\add-product\\add-product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\product\\add-product\\add-product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\product\\add-product\\add-product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\product\\add-product\\add-product.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\category\\view-category\\view-category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\category\\view-category\\view-category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\admin\\category\\edit-category\\edit-category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\admin\\category\\edit-category\\edit-category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\user\\shope\\shope.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\user\\shope\\shope.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\user\\sidebar\\sidebar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\user\\sidebar\\sidebar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\user\\cart\\cart.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\user\\cart\\cart.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\user\\sidebar\\sidebar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\user\\sidebar\\sidebar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\user\\checkout\\checkout.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\user\\checkout\\checkout.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\services\\shop.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\services\\shop.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|c:\\users\\orange\\desktop\\eva-e-commerce\\angular-project-7\\angular-project-7.client\\src\\app\\user\\checkout\\checkout.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8075D0B9-E74D-50BA-3C42-CF8594709BCF}|angular-project-7.client\\angular-project-7.client.esproj|solutionrelative:angular-project-7.client\\src\\app\\user\\checkout\\checkout.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "view-product.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.ts",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:10:58.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "view-product.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-06T10:10:31.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "edit-category.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:07:12.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "view-category.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:08:26.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "add-category.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\add-category\\add-category.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Category\\add-category\\add-category.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\add-category\\add-category.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Category\\add-category\\add-category.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:06:11.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "viewvoucher.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.html",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-06T10:11:18.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "viewvoucher.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Voucher\\viewvoucher\\viewvoucher.component.ts",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAIwFcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:11:34.664Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "view-product.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.spec.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.spec.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.spec.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Product\\view-product\\view-product.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:10:44.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "edit-product.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\edit-product\\edit-product.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Product\\edit-product\\edit-product.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\edit-product\\edit-product.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Product\\edit-product\\edit-product.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:09:53.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "add-product.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-06T10:08:53.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "add-product.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Product\\add-product\\add-product.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-06T10:08:52.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "view-category.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Category\\view-category\\view-category.component.html",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-06T10:08:08.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "edit-category.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Admin\\Category\\edit-category\\edit-category.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-06T10:07:11.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "shope.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\shope\\shope.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\User\\shope\\shope.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\shope\\shope.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\User\\shope\\shope.component.ts",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAFoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-30T00:19:18.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "sidebar.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-29T23:58:36.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "sidebar.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\User\\sidebar\\sidebar.component.ts",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwDwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-29T23:58:04.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "shop.service.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Services\\shop.service.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\Services\\shop.service.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\Services\\shop.service.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\Services\\shop.service.ts",
+              "ViewState": "AgIAAMoAAAAAAAAAAADgv9UAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-29T23:50:43.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "checkout.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.ts",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.ts",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.ts",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-29T23:32:51.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "cart.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\cart\\cart.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\User\\cart\\cart.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\cart\\cart.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\User\\cart\\cart.component.html",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAC4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-29T23:59:40.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "checkout.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.html",
+              "RelativeDocumentMoniker": "angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.html",
+              "RelativeToolTip": "angular-project-7.client\\src\\app\\User\\checkout\\checkout.component.html",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-29T23:26:30.292Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

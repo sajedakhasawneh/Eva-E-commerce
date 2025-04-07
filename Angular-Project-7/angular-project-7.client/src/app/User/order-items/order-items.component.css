@@ -1,0 +1,61 @@
+.custom-table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+  max-width: 1200px;
+}
+
+  .custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .custom-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+.product-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-name a {
+  color: #333;
+  text-decoration: none;
+}
+
+  .product-name a:hover {
+    color: #007bff;
+  }
+
+.pro-qty input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .custom-table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .product-thumbnail img {
+    width: 50px;
+  }
+
+  .pro-qty input {
+    width: 40px;
+  }
+}

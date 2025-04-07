@@ -1,0 +1,67 @@
+<div class="reviews-section page-header-area">
+  <div class="container">
+    <!-- Summary Rating Section -->
+    <div class="reviews-summary text-center mb-5">
+      <h2 class="section-title">Product Reviews</h2>
+      <div class="rating-summary d-flex justify-content-center align-items-center">
+        <span class="stars">
+          <ng-container *ngFor="let star of stars">
+            <i class="fas fa-star" *ngIf="star === 1"></i>
+            <i class="fas fa-star-half-alt" *ngIf="star === 0.5"></i>
+            <i class="far fa-star" *ngIf="star === 0"></i>
+          </ng-container>
+        </span>
+        <span class="average-rating">{{ averageRating.toFixed(1) }}</span>
+        <span class="total-reviews">({{ totalReviews }} reviews)</span>
+
+      </div>
+    </div>
+
+    <!-- Reviews List -->
+    <div class="reviews-list">
+      <div class="review-card" *ngFor="let review of reviews">
+        <div class="review-header d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                 alt="User Avatar" class="review-avatar">
+            <div class="review-info ml-3">
+              <span class="review-author">{{ review.name }}</span>
+              <span class="review-date">{{ review.createdAt | date:'short' }}</span>
+            </div>
+          </div>
+
+          <div class="review-actions d-flex " style="gap:8px" *ngIf="isUserReview(review.userId)">
+            <i class="fas fa-pencil-alt" style="color: #e7a895;" (click)="editReview(review)"></i>
+            <i class="fas fa-trash-alt delete-icon" (click)="deleteReview(review.id)"></i>
+
+          </div>
+        </div>
+
+        <div class="review-rating">
+          <i class="fas fa-star" *ngFor="let star of [].constructor(review.rating); let i = index"></i>
+        </div>
+        <div class="review-comment">{{ review.comment }}</div>
+      </div>
+    </div>
+
+
+
+    <div class="add-review mt-5">
+      <h5>Add Your Review</h5>
+      <textarea [(ngModel)]="newReview.comment" class="form-control" rows="4" placeholder="Write your review..."></textarea>
+      <div class="rating-input mt-3 text-center">
+        <span class="stars">
+          <i class="fas fa-star"
+             *ngFor="let star of [].constructor(5); let i = index"
+             [ngClass]="{'golden': i < currentRating, 'far': i >= currentRating}"
+             (click)="setRating(i + 1)"></i>
+        </span>
+      </div>
+      <button (click)="submitReview()" class="btn btn-primary mt-3">
+        {{ isEditing ? 'Edit Review' : 'Submit Review' }}
+      </button>
+
+    </div>
+
+  </div>
+</div>

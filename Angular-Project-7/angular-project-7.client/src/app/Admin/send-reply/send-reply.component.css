@@ -1,0 +1,79 @@
+.container {
+  width: 100%; /* Full width */
+  padding: 20px; /* Padding for spacing */
+/*  background-color: #ff6f91;*/ /**//* Soft light pink background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent overflow */
+}
+
+h2 {
+  text-align: center;
+  color: #5d2e4b; /* A darker pink for the header */
+  margin-bottom: 20px;
+}
+
+.message-card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: transform 0.3s; /* Smooth scaling effect */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+  .message-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+
+.message-header {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.message-content {
+  margin: 10px 0;
+  color: #333; /* Dark text for readability */
+}
+
+.reply-section {
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Rounded corners for textarea */
+  resize: none;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #e28198; /* Darker pink for button */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Rounded corners for button */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+  button:hover {
+    background-color: #ff6f91; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight enlargement on hover */
+  }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .message-card {
+    padding: 15px; /* Adjust padding for message cards */
+  }
+}

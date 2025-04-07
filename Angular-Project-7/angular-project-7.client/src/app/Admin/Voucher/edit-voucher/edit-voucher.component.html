@@ -1,0 +1,24 @@
+<div class="container mt-4">
+  <div class="card shadow-lg rounded-3">
+    <div class="card-header  text-white text-center">
+      <h3 class="mb-0">Edit Voucher</h3>
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="updateVoucher(voucherForm.value)" #voucherForm="ngForm">
+        <div class="mb-3">
+          <label for="code" class="form-label">Voucher Code</label>
+          <input type="text" id="code" name="code" class="form-control" [(ngModel)]="voucherContainer.code" required>
+        </div>
+        <div class="mb-3">
+          <label for="discountPercentage" class="form-label">Discount Percentage</label>
+          <input type="number" id="discountPercentage" name="discountPercentage" class="form-control" [(ngModel)]="voucherContainer.discountPercentage" min="0" max="100" required>
+        </div>
+        <div class="mb-3">
+          <label for="expiryDate" class="form-label">Expiry Date</label>
+          <input type="date" id="expiryDate" name="expiryDate" class="form-control" [(ngModel)]="voucherContainer.expiryDate" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Update Voucher</button>
+      </form>
+    </div>
+  </div>
+</div>

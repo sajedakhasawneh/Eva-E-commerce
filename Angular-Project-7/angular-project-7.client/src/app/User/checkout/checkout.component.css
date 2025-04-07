@@ -1,0 +1,19 @@
+.btn-place-order {
+  display: block;
+  text-align: center;
+  border-radius: 0;
+  padding: 18px 20px 16px;
+  margin-top: 32px;
+  font-size: 16px;
+  background-color: #ff6565;
+  border-color: #ff6565;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+  .btn-place-order:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff
+  }

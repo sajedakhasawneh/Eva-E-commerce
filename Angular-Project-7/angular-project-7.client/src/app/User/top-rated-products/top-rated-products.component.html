@@ -1,0 +1,49 @@
+<div class="product-item" *ngFor="let product of topRatedProducts">
+  <div class="product-thumb">
+    <a class="d-block" [routerLink]="['/product-details', product.id]">
+      <img [src]="product.image" width="370" height="450" [alt]="product.name">
+    </a>
+    <span class="flag-new" *ngIf="product.discount">New</span>
+    <div class="product-action">
+      <button type="button" class="product-action-btn action-btn-quick-view" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal">
+        <i class="fa fa-expand"></i>
+      </button>
+      <button type="button" class="product-action-btn action-btn-cart">
+        <span>Add to cart</span>
+      </button>
+      <button type="button" class="product-action-btn action-btn-wishlist">
+        <i class="fa fa-heart-o"></i>
+      </button>
+    </div>
+  </div>
+  <div class="product-info">
+    <div class="product-rating">
+      <div class="rating">
+        <i class="fa" *ngFor="let star of [1,2,3,4,5]" [ngClass]="{
+           'fa-star' : star <= product.averageRating,
+          'fa-star-half-o': star - 0.5 == product.averageRating,
+          'fa-star-o': star > product.averageRating
+        }"></i>
+      </div>
+      <div class="reviews">{{ product.totalReviews }} reviews</div>
+    </div>
+    <h4 class="title"><a [routerLink]="['/product-details', product.id]">{{ product.name }}</a></h4>
+    <div class="prices">
+      <span class="price">${{ product.price }}</span>
+      <span class="price-old" *ngIf="product.discount">
+        {{ (product.price / (1 - (product.discount.replace('%', '') / 100))).toFixed(2) }}
+      </span>
+    </div>
+  </div>
+  <div class="product-action-bottom">
+    <button type="button" class="product-action-btn action-btn-quick-view">
+      <i class="fa fa-expand"></i>
+    </button>
+    <button type="button" class="product-action-btn action-btn-wishlist">
+      <i class="fa fa-heart-o"></i>
+    </button>
+    <button type="button" class="product-action-btn action-btn-cart">
+      <span>Add to cart</span>
+    </button>
+  </div>
+</div>

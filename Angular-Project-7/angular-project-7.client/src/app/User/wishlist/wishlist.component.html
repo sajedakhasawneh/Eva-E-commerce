@@ -1,0 +1,30 @@
+<div class="wrapper">
+
+
+  <main class="main-content">
+
+    <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA" style="background-color: #FFF3DA; margin-top: 80px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="page-header-st3-content text-center text-md-start">
+              <h2 class="page-header-title">Your Wishlist</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container page-header-area pt-10 pb-9">
+      <div class="wishlist-container">
+        <div *ngFor="let product of filteredProductsById" class="wishlist-item">
+          <img [src]="product.image" alt="Product Image">
+          <div class="wishlist-item-details">
+            <div class="wishlist-item-title">{{ product.name }}</div>
+            <div class="wishlist-item-price">{{ product.price }} JD</div>
+          </div>
+          <button class="remove-btn" (click)="removeFromWishlist(product.id)">Remove</button>
+        </div>
+      </div>
+    </div>
+</main>
+</div>

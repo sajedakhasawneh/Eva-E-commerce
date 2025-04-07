@@ -1,0 +1,108 @@
+<div class="container mt-4">
+  <div class="card shadow-lg rounded-3 ">
+    <div class="card-header text-white text-center">
+      <h3 class="mb-0">Add New Product</h3>
+    </div>
+    <div class="card-body">
+      <form #addProduct="ngForm" (ngSubmit)="addNewProduct(addProduct.value)">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Product Name</label>
+          <input type="text" class="form-control" name="name" ngModel>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Description</label>
+          <input type="text" class="form-control" name="description" ngModel>
+        </div>
+        <!--<div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">stock</label>
+          <input type="text" class="form-control" name="stock" ngModel>
+        </div>-->
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Image</label>
+          <input type="url" class="form-control" name="image" ngModel>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Category</label>
+          <select class="form-select" name="categoryId" ngModel required>
+            <option *ngFor="let item of category" (click)="getSelectedData(item)" [value]="item.id">{{ item.name }}</option>
+          </select>
+        </div>
+        <div class="mb-3 d-flex" style="justify-content:space-between">
+          <div style="width:47%">
+            <label for="exampleInputPassword1" class="form-label">discount</label>
+            <input type="text" class="form-control" name="discount" ngModel>
+          </div>
+          <div style="width:47%">
+            <label for="exampleInputPassword1" class="form-label">Price</label>
+            <input type="text" class="form-control" name="price" ngModel>
+          </div>
+        </div>
+        <!--<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      {{ selectedCategoryName }}-->
+        <!-- Display selected category name -->
+        <!--</button>
+    <ul class="dropdown-menu">
+      <li *ngFor="let item of category">
+        <a class="dropdown-item" (click)="getSelectedData(item)">{{ item.name }}</a>
+      </li>
+    </ul>
+  </div>-->
+        <button type="submit" class="btn btn-primary">Add Product</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!--<div class="container mt-4">
+  <div class="card shadow-lg rounded-3">
+    <div class="card-header bg-pink text-white text-center">
+      <h3 class="mb-0">Add New Product</h3>
+    </div>
+    <div class="card-body">
+      <form #addProduct="ngForm" (ngSubmit)="addNewProduct(addProduct.value)">
+        <div class="mb-3">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Product Name</label>
+            <input type="text" class="form-control" name="name" ngModel>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Description</label>
+            <input type="text" class="form-control" name="description" ngModel>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">stock</label>
+            <input type="text" class="form-control" name="stock" ngModel>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">discount</label>
+            <input type="text" class="form-control" name="discount" ngModel>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Price</label>
+            <input type="text" class="form-control" name="price" ngModel>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ selectedCategoryName }}-->
+  <!-- Display selected category name -->
+<!--</button>
+            <ul class="dropdown-menu">
+              <li *ngFor="let item of category">
+                <a class="dropdown-item" (click)="getSelectedData(item)">{{ item.name }}</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Image</label>
+            <input type="url" class="form-control" name="image" ngModel>
+          </div>
+          <button type="submit" class="btn btn-primary">Add Product</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>-->

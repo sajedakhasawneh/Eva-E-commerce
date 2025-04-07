@@ -1,0 +1,19 @@
+h2 {
+  position: relative;
+  width: fit-content;
+  justify-self: center !important;
+}
+
+  h2 ::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #ff6565;
+    height: 10px;
+    width: 100%;
+    content: '';
+    opacity: .5;
+    bottom: 7px;
+    z-index: -1;
+  }

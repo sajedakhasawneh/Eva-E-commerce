@@ -1,0 +1,170 @@
+.page-header-area {
+  padding-top: 100px !important;
+  padding-bottom: 9px;
+}
+
+body {
+  background-color: #e7a895 !important;
+}
+
+.reviews-section {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reviews-summary h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #e7a895;
+  margin-bottom: 20px;
+}
+
+.rating-summary .stars {
+  color: #f8c200;
+  font-size: 28px;
+}
+
+.average-rating {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 10px;
+}
+
+.total-reviews {
+  font-size: 14px;
+  color: #777;
+  margin-left: 10px;
+}
+
+.reviews-list {
+  margin-top: 40px;
+}
+
+.review-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+  .review-card:hover {
+    transform: translateY(-5px);
+  }
+
+.review-header {
+  display: flex;
+  align-items: center;
+}
+
+.review-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #ddd;
+}
+
+.review-info {
+  margin-left: 10px;
+}
+
+.review-author {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #777;
+}
+
+.review-rating {
+  color: #f8c200;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.review-comment {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.add-review {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+  .add-review h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.rating-input .stars {
+  color: #f8c200;
+  font-size: 28px;
+}
+
+.btn-primary {
+  background-color: #e7a895;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+  .btn-primary:hover {
+    background-color: #d98a79;
+  }
+
+.delete-icon {
+  color: #9E9E9E !important;
+  font-size: 20px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+  .delete-icon:hover {
+    color: #616161 !important;
+    transform: scale(1.2);
+  }
+
+.fas, .far {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.fas {
+  color: gold;
+}
+
+.far {
+  color: gray;
+}
+
+.golden {
+  color: gold !important;
+}

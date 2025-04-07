@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "+rziY8SYLdISvDqCVrxT5MQ+5pDhPNAQoK0vT/okDb8=",
+  "Source": "Angular-Project-7.Server",
+  "BasePath": "_content/Angular-Project-7.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\angular-project-7.client\\angular-project-7.client.esproj",
+      "Version": 2,
+      "Source": "angular-project-7.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

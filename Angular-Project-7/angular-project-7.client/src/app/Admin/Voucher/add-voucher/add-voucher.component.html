@@ -1,0 +1,24 @@
+<div class="container mt-4">
+  <div class="card shadow-lg rounded-3 ">
+    <div class="card-header text-white text-center">
+      <h3 class="mb-0">Add New Voucher</h3>
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="addVoucher(voucherForm.value)" #voucherForm="ngForm">
+        <div class="mb-3">
+          <label for="code" class="form-label">Voucher Code</label>
+          <input type="text" name="code" class="form-control" required ngModel>
+        </div>
+        <div class="mb-3">
+          <label for="discountPercentage" class="form-label">Discount Percentage</label>
+          <input type="number" name="discountPercentage" class="form-control" min="0" max="100" required ngModel>
+        </div>
+        <div class="mb-3">
+          <label for="expiryDate" class="form-label">Expiry Date</label>
+          <input type="date" name="expiryDate" class="form-control" required ngModel>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Voucher</button>
+      </form>
+    </div>
+  </div>
+</div>

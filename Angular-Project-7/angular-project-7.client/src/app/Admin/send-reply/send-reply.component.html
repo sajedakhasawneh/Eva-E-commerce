@@ -1,0 +1,22 @@
+<div class="container "  style=" max-height: 95vh; overflow-y: auto;">
+  <h2>Incoming Messages</h2>
+  <div *ngIf="send.length > 0; else noMessages">
+    <div *ngFor="let message of send" class="message-card fade-in">
+      <div class="message-header bg-light-pink text-pink">
+        <p><strong>Sender:</strong> {{ message.firstName }} {{ message.lastName }}</p>
+        <p><strong>Email:</strong> {{ message.email }}</p>
+      </div>
+      <p class="message-content"><strong>Message:</strong> {{ message.message }}</p>
+
+      <!-- Reply Section -->
+      <div class="reply-section">
+        <textarea [(ngModel)]="message.reply" placeholder="Write your reply here..."></textarea>
+        <button  (click)="sendReply(message)">Send Reply</button>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noMessages>
+    <p>No messages to display.</p>
+  </ng-template>
+</div>

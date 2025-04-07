@@ -1,0 +1,54 @@
+
+<div class="shopping-cart-form table-responsive">
+  <div class="wrapper">
+
+
+    <main class="main-content">
+
+      <!--== Start Page Header Area Wrapper ==-->
+      <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA" style="background-color: #FFF3DA; margin-top: 80px">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="page-header-st3-content text-center text-md-start">
+                <h2 class="page-header-title">Your Order Details</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--== End Page Header Area Wrapper ==-->
+      <form action="#" method="post">
+        <table class="table text-center custom-table" style="margin-top:4%">
+          <thead>
+            <tr>
+              <th class="product-thumbnail">&nbsp;</th>
+              <th class="product-name">Product</th>
+              <th class="product-price">Price</th>
+              <th class="product-quantity">Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="tbody-item" *ngFor="let item of orderItems">
+              <td class="product-thumbnail">
+                <div class="thumb">
+                  <img [src]="item.productImage" alt="{{item.productName}}" width="68" height="84">
+                </div>
+              </td>
+              <td class="product-name">
+                <a class="title">{{item.productName}}</a>
+              </td>
+              <td class="product-price">
+                <span class="price">{{item.productprice}}</span>
+              </td>
+              <td class="product-quantity">
+                <span class="price">x {{item.quantity}}</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </main>
+
+  </div>
+</div>

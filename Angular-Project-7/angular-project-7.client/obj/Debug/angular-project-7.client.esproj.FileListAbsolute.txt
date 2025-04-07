@@ -1,0 +1,4 @@
+C:\Users\Orange\Desktop\Angular-Project-7\angular-project-7.client\obj\Debug\angular-project-7.client.esproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\Angular-Project\Angular-Project-7\angular-project-7.client\obj\Debug\angular-project-7.client.esproj.CoreCompileInputs.cache
+C:\Users\Orange\Source\Repos\Angular-Project\Angular-Project-7\angular-project-7.client\obj\Debug\angular-project-7.client.esproj.CoreCompileInputs.cache
+C:\Users\Orange\Desktop\Eva-E-commerce\Angular-Project-7\angular-project-7.client\obj\Debug\angular-project-7.client.esproj.CoreCompileInputs.cache

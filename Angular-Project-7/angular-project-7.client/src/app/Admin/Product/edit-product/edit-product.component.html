@@ -1,0 +1,38 @@
+<div class="container mt-4">
+  <div class="card shadow-lg rounded-3">
+    <div class="card-header bg-pink text-white text-center">
+      <h3 class="mb-0">Edit Product</h3>
+    </div>
+    <div class="card-body">
+      <form #editProduct="ngForm" (ngSubmit)="updateProduct(editProduct.value)">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Product Name</label>
+          <input type="text" class="form-control" name="name" [(ngModel)]="productContanier.name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Description</label>
+          <input type="text" class="form-control" name="description" [(ngModel)]="productContanier.description">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">price</label>
+          <input type="text" class="form-control" name="price" [(ngModel)]="productContanier.price">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Discount</label>
+          <input type="text" class="form-control" name="discount" [(ngModel)]="productContanier.discount">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Category</label>
+          <select class="form-select" name="categoryId" ngModel required>
+            <option *ngFor="let item of category" (click)="getSelectedData(item)" [value]="item.id">{{ item.name }}</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Image</label>
+          <input type="text" class="form-control" name="image" [(ngModel)]="productContanier.image">
+        </div>
+        <button type="submit" class="btn btn-primary">Update Product</button>
+      </form>
+    </div>
+  </div>
+</div>

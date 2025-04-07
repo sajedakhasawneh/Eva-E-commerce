@@ -1,0 +1,74 @@
+
+<div class="container mt-4">
+  <div class="card shadow-lg rounded-3">
+    <div class="card-body">
+      <div class="card-header bg-pink text-white d-flex justify-content-between align-items-center">
+        <h3 class="mb-0">All Products</h3>
+
+        <div class="d-flex align-items-center">
+          <button (click)="startListening()" class="btn btn-light me-2" title="Search by voice">
+            🎤
+          </button>
+          <a routerLink="/dashboard/addProduct" class="btn btn-light-pink text-white" style="padding: 0.90rem 1.25rem;">
+            Add Product
+          </a>
+        </div>
+      </div>
+      <div style="display:flex">
+        <!-- Search input -->
+        <div class="container card-header mt-3 bg-pink text-white">
+          <input type="text"
+                 [(ngModel)]="searchQuery"
+                 placeholder="Search by product name..."
+                 class="form-control" />
+        </div>
+
+        <!-- Category Dropdown -->
+        <div class="container card-header mt-3">
+          <select [(ngModel)]="selectedCategory" class="form-control" [ngModelOptions]="{standalone: true}">
+            <option value="">Select Category</option>
+            <option *ngFor="let category of categoryContainer" [value]="category.id">{{ category.name }}</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="container mt-2" style="max-height: 60vh; overflow-y: auto;">
+        <div class="card shadow-lg rounded-3">
+          <div class="card-body">
+            <table class="table table-striped table-hover text-center">
+              <thead class="table-pink">
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Stock</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Discount</th>
+                  <th scope="col">Image</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of filteredProducts">
+                  <td>{{ item.name }}</td>
+                  <td>{{ item.stock }}</td>
+                  <td>{{ item.price }}</td>
+                  <td>{{ item.discount }}</td>
+                  <td>
+                    <img [src]="item.image" alt="{{ item.image }}" width="100" height="80">
+                  </td>
+                  <td>
+                    <a routerLink="/dashboard/editProduct/{{ item.id }}" class="text-decoration-none text-pink">Edit</a>
+                    |
+                    <a (click)="DeleteProduct(item.id)" class="text-decoration-none text-pink">
+                      <i class="bi bi-trash"></i>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

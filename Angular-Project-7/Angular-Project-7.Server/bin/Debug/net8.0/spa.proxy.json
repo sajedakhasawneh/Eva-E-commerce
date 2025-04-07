@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52305",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\Orange\\Desktop\\Eva-E-commerce\\Angular-Project-7\\Angular-Project-7.Server\\..\\angular-project-7.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

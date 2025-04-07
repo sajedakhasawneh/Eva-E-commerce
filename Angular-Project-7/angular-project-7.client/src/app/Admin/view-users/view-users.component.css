@@ -1,0 +1,67 @@
+.container {
+  width: 100%; /* Full width */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card {
+  border-radius: 15px; /* زوايا مدورة */
+  overflow: hidden; /* منع overflow */
+}
+h3 {
+  color: #5d2e4b;
+}
+
+.card-header {
+  /* background-color: #ff6f91;*/ /* لون خلفية للرؤوس */
+  color: #5d2e4b; /* نص أبيض */
+  padding: 20px; /* padding */
+}
+
+.table {
+  border-radius: 10px; /* زوايا مدورة للجدول */
+  overflow: hidden; /* منع overflow */
+}
+
+.table-light-pink {
+ /* background-color: #ffe6f2;*/ /* خلفية وردية فاتحة لجدول العناوين */
+}
+
+.table th {
+  /*background-color: #ff6f91;*/ /* لون خلفية للرؤوس */
+  color: #5d2e4b; /* نص أبيض */
+  padding: 15px; /* padding */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fce4ec; /* وردي فاتح للصفوف الفردية */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8bbd0; /* تمييز عند التحويم */
+  transform: scale(1.02); /* تكبير طفيف عند التحويم */
+  transition: background-color 0.3s, transform 0.2s; /* تأثيرات سلسة */
+}
+
+.table td {
+  color: #333; /* نص داكن لسهولة القراءة */
+  padding: 15px; /* padding */
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards; /* تأثير الفيد ان */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

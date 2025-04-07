@@ -1,0 +1,63 @@
+/* Webpixels CSS */
+/* Utility and component-centric Design System based on Bootstrap for fast, responsive UI development */
+/* URL: https://github.com/webpixels/css */
+
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+
+/* Bootstrap Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+/* خلفية الصفحة */
+body {
+  background-color: #f8bbd0 !important;
+}
+
+/* الشريط الجانبي */
+.navbar-vertical {
+  background: linear-gradient(180deg, #e091a4, #f8bbd0);
+  color: white;
+  border-right: 2px solid #d17892;
+}
+
+  /* لون النص في الشريط الجانبي */
+  .navbar-vertical .nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+    /* تأثير Hover على الروابط */
+    .navbar-vertical .nav-link:hover {
+      background-color: #d17892;
+      border-radius: 8px;
+      padding-left: 12px;
+    }
+
+    /* أيقونات القائمة */
+    .navbar-vertical .nav-link i {
+      color: white;
+      margin-right: 8px;
+    }
+
+    /* العنصر النشط */
+    .navbar-vertical .nav-link.active {
+      background-color: #b56576;
+      border-radius: 8px;
+    }
+
+/* زر التبديل في الهاتف */
+.navbar-toggler {
+  border: none;
+  background: white;
+  color: #e091a4;
+}
+
+/* الصورة الشخصية */
+.navbar-user img {
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* شارة الأرقام */
+.badge.bg-primary {
+  background-color: #b56576 !important;
+}

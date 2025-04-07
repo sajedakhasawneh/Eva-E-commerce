@@ -1,0 +1,151 @@
+<!--== Wrapper Start ==-->
+<div class="wrapper">
+
+  <main class="main-content">
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <section class="page-header-area pt-10 pb-9" data-bg-color="#FFF3DA" style="background-color: #FFF3DA; margin-top: 80px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="page-header-st3-content text-center text-md-start">
+              <h2 class="page-header-title">Shop</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Page Header Area Wrapper ==-->
+    <!--== Start Shop Top Bar Area Wrapper ==-->
+    <section class="shop-top-bar-area py-3">
+      <div class="container">
+        <div class="shop-top-bar d-flex flex-wrap align-items-center justify-content-between p-3 gap-3 rounded">
+
+          <div class="search-bar d-flex align-items-center flex-grow-1">
+            <input type="text" class="form-control search-input" placeholder="Search for a product..."
+                   [(ngModel)]="searchQuery" (keyup)="onSearchChange()" />
+            <button class="btn btn-search ms-2" (click)="onSearchChange()">
+              <i class="fas fa-search"></i> <!-- Font Awesome icon -->
+            </button>
+            <button class="btn btn-mic ms-2" (click)="startVoiceSearch()">
+              <i class="fas fa-microphone"></i> <!-- Font Awesome icon -->
+            </button>
+          </div>
+
+
+          <select class="form-select select-sorting" (change)="sortProducts($event)">
+            <option value="">Sort by</option>
+
+            <option value="az">A-Z</option>
+            <option value="za">Z-A</option>
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+            <option value="new-old">Newest</option>
+            <option value="old-new">Oldest</option>
+          </select>
+
+
+
+          <select class="form-select select-category" (change)="onCategoryChange($event)">
+            <option value="">All Categories</option>
+            <option *ngFor="let category of categoriesContainer" [value]="category.id">{{ category.name }}</option>
+          </select>
+
+
+
+          <a href="javascript:void(0);" class="btn" (click)="fetchProducts()" style="margin: 40px auto; background: #FF948A; border: none; color: white; ">
+            <i class="bi bi-arrow-repeat"></i> View all products
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!--== End Shop Top Bar Area Wrapper ==-->
+    <!--== Start Product Category Area Wrapper ==-->
+    <section class="section-space pb-0" style="margin-top:200px;">
+      <div class="container">
+        <div class="row g-3 g-md-4 g-lg-5">
+          <div *ngFor="let category of categoriesContainer" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <a href="javascript:void(0);" class="product-category-item" (click)="filterProductsByCategory(category.id)">
+              <img class="icon" [src]="category.image" width="100" height="100" [alt]="category.name">
+              <h3 class="title">{{ category.name }}</h3>
+              <!--<div class="description">{{ category.description }}</div>-->
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Product Category Area Wrapper ==-->
+    <!--== Start Product Area Wrapper ==-->
+    <section class="section-space">
+      <div class="container">
+        <div class="row mb-n4 mb-sm-n10 g-3 g-sm-6">
+          <div *ngFor="let product of filteredProducts" class="col-6 col-lg-4 mb-4 mb-sm-8">
+            <div class="product-item">
+              <div class="product-thumb">
+                <a class="d-block" routerLink="/Product-Details/{{product.id}}">
+                  <img [src]="product.image" alt="Product Image" class="product-category-item" style=" background: transparent !important; ">
+                  <span class="flag-new" *ngIf="+product.discount > 0">On Sale</span>
+                </a>
+
+                <div class="product-action">
+
+                  <button type="button"
+                          class="product-action-btn action-btn-quick-view"
+                          [routerLink]="['/reviews', product.id]">
+                    <i class="fas fa-star"></i>
+                  </button>
+
+
+
+
+                  <button (click)="addToCart(product)" type="button" class="product-action-btn action-btn-cart">
+                    <span><i class="fas fa-shopping-cart"></i> Add to cart</span>
+                  </button>
+
+                  <button type="button" class="product-action-btn action-btn-wishlist" (click)="getProductById(product.id); $event.stopPropagation();">
+                    <i class="fas fa-heart"></i>
+                  </button>
+
+                </div>
+
+              </div>
+              <div class="product-info">
+                <div class="product-rating">
+                  <div class="rating">
+                    <i class="fas fa-star"
+                       *ngFor="let star of getStars(product.rating); let i = index"
+                       [ngClass]="{
+     'golden': star == 1,
+     'far': star == 0
+   }" [ngStyle]="{'color': star == 0 ? '#d3d3d3' : star == 1 ? 'gold' : ''}"></i>
+
+
+                  </div>
+                  <div style="color: #d18a7b" class="reviews">{{ product.reviews }} reviews</div>
+                </div>
+
+                <h4 class="title"><a href="product-details.html">{{ product.name }}</a></h4>
+                <div class="prices">
+                  <span *ngIf="+product.discount == 0" class="price">{{ product.price }} JD</span>
+                  <span *ngIf="+product.discount > 0" class="price">{{ (+product.price) - ((+product.price) * (+product.discount) / 100) | number:'1.2-2' }} JD</span>
+                  <span *ngIf="+product.discount > 0" class="price-old">{{ product.price }} JD</span>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!--== End Product Area Wrapper ==-->
+
+
+  </main>
+
+</div>
+<!--== Wrapper End ==-->

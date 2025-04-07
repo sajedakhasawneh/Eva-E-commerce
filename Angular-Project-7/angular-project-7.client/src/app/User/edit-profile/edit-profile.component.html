@@ -1,0 +1,27 @@
+<div class="modal-backdrop">
+  <div class="modal-content">
+    <h3>Edit Profile</h3>
+    <form>
+      <div class="form-group">
+        <label>Username:</label>
+        <input type="text" [(ngModel)]="user.name" class="form-control" name="name" />
+      </div>
+
+      <div class="form-group">
+        <label>Phone Number:</label>
+        <input type="text" [(ngModel)]="user.phone" class="form-control" name="phone" />
+      </div>
+
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="text" [(ngModel)]="user.email" class="form-control" name="email" readonly/>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-save" (click)="save()">Save</button>
+        <button type="button" class="btn btn-cancel" (click)="cancel()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
